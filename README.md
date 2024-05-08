@@ -20,7 +20,7 @@ To use the `JsonMap` class provided by `es6-map-json`, import it into your proje
 const JsonMap = require('es6-map-json');
 
 // Create a new instance of JsonMap with a file path
-const myMap = new JsonMap('data.json');
+const myMap = new JsonMap('data.json', null, 2);
 
 // Use it like a regular Map
 myMap.set('key', 'value');
