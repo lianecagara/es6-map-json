@@ -1,0 +1,29 @@
+{
+  "name": "es6-json-map",
+  "version": "1.0.0",
+  "description": "A package that combines the ES6 Map data structure with JSON file read/write functionality.",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Map",
+    "JSON",
+    "file",
+    "data",
+    "storage",
+    "serialization",
+    "persistence"
+  ],
+  "author": "Liane Cagara",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6"
+  }
+}
