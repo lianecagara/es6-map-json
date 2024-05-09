@@ -1,6 +1,6 @@
 {
   "name": "es6-map-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package that combines the ES6 Map data structure with JSON file read/write functionality.",
   "main": "index.js",
   "exports": {
